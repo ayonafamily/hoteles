@@ -1,0 +1,17 @@
+{
+  "name": "hoteles",
+  "description": "Proyecto de bootstrap Coursera",
+  "author": "Jorge Ayona",
+  "homepage": "https://jorgeayona.com",
+  "version": "1.000",
+  "main": "index.html",
+  "scripts": {
+    "dev": "light-server -s . -p 9090 -w \"src/**/*.js, src/**/*.html # npm run build:js\" -w \"src/main.css # npm run build:css # reloadcss\""
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.0-alpha1"
+  },
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
